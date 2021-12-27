@@ -9,4 +9,5 @@ FetchContent_MakeAvailable(googletest)
 
 include(GoogleTest)
 
+add_subdirectory(50)
 add_subdirectory(56)
