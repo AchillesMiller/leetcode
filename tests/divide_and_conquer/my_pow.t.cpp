@@ -1,6 +1,6 @@
 #include "gtest/gtest.h"
 
-#include <50/my_pow.h>
+#include <divide_and_conquer/50.my_pow.h>
 
 using namespace leetcode;
 

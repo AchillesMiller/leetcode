@@ -9,5 +9,5 @@ FetchContent_MakeAvailable(googletest)
 
 include(GoogleTest)
 
-add_subdirectory(50)
-add_subdirectory(56)
+add_subdirectory(divide_and_conquer)
+add_subdirectory(intervals)

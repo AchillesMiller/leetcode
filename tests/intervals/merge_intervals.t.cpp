@@ -1,6 +1,6 @@
 #include "gtest/gtest.h"
 
-#include <56/merge_intervals.56.h>
+#include <intervals/56.merge_intervals.h>
 
 TEST(merge_intervals, A)
 {
