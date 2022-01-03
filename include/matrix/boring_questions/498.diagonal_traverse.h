@@ -17,8 +17,9 @@ public:
     // But, that will introduce unnecessary memory cost
 
     // so, if each time, we traversal from bottom left to top right,
-    // this is quite simple, what we need do is just flip
-    //   start point and gradient
+    // this is quite simple, 
+    // so, what we need do is just flip the new segment, which is equal to
+    // use insert/push_back for each traversal
 
     // will write one auxiliary method traverse
 
