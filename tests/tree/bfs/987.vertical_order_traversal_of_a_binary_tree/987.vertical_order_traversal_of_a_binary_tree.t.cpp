@@ -19,6 +19,8 @@ TEST(vertical_order_traversal_of_a_binary_tree_987, I)
   };
 
   ASSERT_EQ(Solution().verticalTraversal(root), expected);
+
+  delete root;
 }
 
 TEST(vertical_order_traversal_of_a_binary_tree_987, II)
@@ -42,6 +44,8 @@ TEST(vertical_order_traversal_of_a_binary_tree_987, II)
   };
 
   ASSERT_EQ(Solution().verticalTraversal(root), expected);
+
+  delete root;
 }
 
 
