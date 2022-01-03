@@ -1,1 +1,2 @@
 add_subdirectory(longest_increasing_sequence)
+add_subdirectory(two_pointers)
