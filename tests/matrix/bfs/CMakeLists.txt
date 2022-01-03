@@ -1,0 +1,1 @@
+add_subdirectory(371.shortest_distance_from_all_buildings)
