@@ -2,7 +2,7 @@
 
 #include <intervals/56.merge_intervals.h>
 
-TEST(merge_intervals, A)
+TEST(merge_intervals_56, I)
 {
   leetcode::interval_merger merger;
 

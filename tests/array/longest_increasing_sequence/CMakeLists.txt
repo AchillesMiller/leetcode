@@ -1,0 +1,2 @@
+add_subdirectory(2111.minimum_operations_to_make_the_array_k_increasing)
+add_subdirectory(300.longest_increasing_subsequence)

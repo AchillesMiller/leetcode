@@ -1,9 +1,1 @@
-set(BINARY my_pow_test)
-
-add_executable(${BINARY} my_pow.t.cpp)
-
-target_link_libraries(${BINARY} gtest_main)
-
-include(GoogleTest)
-
-gtest_discover_tests(${BINARY})
+add_subdirectory(50.my_pow)
