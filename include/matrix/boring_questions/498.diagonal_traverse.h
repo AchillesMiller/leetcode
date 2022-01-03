@@ -2,6 +2,7 @@
 #define INCLUDED_MATRIX_BORING_QUESTIONS_498_DIAGONAL_TRAVERSAL
 
 #include <vector>
+#include <algorithm>
 
 namespace leetcode {
 
@@ -46,18 +47,18 @@ public:
   {
     int gr = -1, gc = 1; // gradient of r and c
 
-    auto it = orders.end();
+    int size = orders.size();
 
     while(r >= 0 && r < m.size() && c >= 0 && c < m[r].size())
     {
-      if (flip)  // flip the order of new segment
-        it = orders.insert(it, m[r][c]);
-      else
-        orders.push_back(m[r][c]);
+      orders.push_back(m[r][c]);
 
       r += gr;
       c += gc;
     }
+
+    if (flip)
+      std::reverse(orders.begin()+size, orders.end());
 
     return;
   }
