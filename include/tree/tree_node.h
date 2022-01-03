@@ -20,7 +20,7 @@ struct node
 
   node() : val(0), left(nullptr), right(nullptr) {}
   node(T x): val(x), left(nullptr), right(nullptr) {}
-  node(T x, TreeNode *left, TreeNode *r): val(x), left(left), right(right) {}
+  node(T x, TreeNode *l, TreeNode *r): val(x), left(l), right(r) {}
 
   ~node()
   {
