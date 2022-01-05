@@ -1,0 +1,1 @@
+add_subdirectory(131.palindrome_partitioning)
