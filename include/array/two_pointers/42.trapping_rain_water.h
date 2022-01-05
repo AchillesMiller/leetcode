@@ -38,10 +38,10 @@ public:
   }
 
   int trap2(std::vector<int> &height) {
-    // another solution is to use monotonic queue with descending height
-    // when iterate to a height that is larger than the previous max height
+    // another solution is to use monotonic stack with non-ascending height
+    // when iterate to a height that is larger than the previous min height
     // two phenomena:
-    //    1. the index of the last height in queue(pi) + 1 = current index(ci)
+    //    1. the index of the last height in stack(pi) + 1 = current index(ci)
     //    2. set the H[pi] as the base and pop pi
     //    3. the index of the last height in queue is pi now
     //    4. trapped water += *std::min(H[ci], H[pi]) - base) * (ci-pi-1)
