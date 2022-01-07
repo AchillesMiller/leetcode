@@ -1,1 +1,2 @@
+add_subdirectory(200.number_of_islands)
 add_subdirectory(827.make_a_large_island)

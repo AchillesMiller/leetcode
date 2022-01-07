@@ -1,6 +1,6 @@
 #include <gtest/gtest.h>
 
-#include <palindrome/dp/131.palindrome_partitioning.h>
+#include <dp/palindrome/131.palindrome_partitioning.h>
 
 using namespace leetcode;
 
