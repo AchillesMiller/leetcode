@@ -1,2 +1,3 @@
 add_subdirectory(matrix)
+add_subdirectory(parenthesis)
 add_subdirectory(string)
