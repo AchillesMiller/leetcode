@@ -1,6 +1,6 @@
 #include <gtest/gtest.h>
 
-#include <matrix/bfs/371.shortest_distance_from_all_buildings.h>
+#include <bfs/matrix/371.shortest_distance_from_all_buildings.h>
 
 using namespace leetcode;
 

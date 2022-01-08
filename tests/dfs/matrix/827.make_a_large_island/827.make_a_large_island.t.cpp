@@ -1,6 +1,6 @@
 #include <gtest/gtest.h>
 
-#include <matrix/dfs/827.make_a_large_island.h>
+#include <dfs/matrix/827.make_a_large_island.h>
 
 using namespace leetcode;
 

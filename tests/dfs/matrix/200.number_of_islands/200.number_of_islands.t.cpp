@@ -1,6 +1,6 @@
 #include <gtest/gtest.h>
 
-#include <matrix/dfs/200.number_of_islands.h>
+#include <dfs/matrix/200.number_of_islands.h>
 
 using namespace leetcode;
 

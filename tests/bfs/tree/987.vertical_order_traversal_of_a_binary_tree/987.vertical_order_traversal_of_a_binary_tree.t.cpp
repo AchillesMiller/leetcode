@@ -1,5 +1,5 @@
 #include <gtest/gtest.h>
-#include <tree/bfs/987.vertical_order_traversal_of_a_binary_tree.h>
+#include <bfs/tree/987.vertical_order_traversal_of_a_binary_tree.h>
 
 using namespace leetcode;
 
