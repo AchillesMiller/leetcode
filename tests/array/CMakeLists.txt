@@ -1,2 +1,3 @@
+add_subdirectory(31.next_permutation)
 add_subdirectory(longest_increasing_sequence)
 add_subdirectory(two_pointers)
