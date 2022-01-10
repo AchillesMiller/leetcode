@@ -4,7 +4,7 @@
 
 using namespace leetcode;
 
-TEST(minimum_operations_to_make_the_array_k_increasing_2111_test, I)
+TEST(NO_2111_minimum_operations_to_make_the_array_k_increasing, I)
 {
   std::vector<int> arr{5,4,3,2,1};
   int k = 1;
@@ -12,7 +12,7 @@ TEST(minimum_operations_to_make_the_array_k_increasing_2111_test, I)
   ASSERT_EQ(Solution().kIncreasing(arr, k), 4);
 }
 
-TEST(minimum_operations_to_make_the_array_k_increasing_2111_test, II)
+TEST(NO_2111_minimum_operations_to_make_the_array_k_increasing, II)
 {
   std::vector<int> arr{4,1,5,2,6,2};
   int k = 2;

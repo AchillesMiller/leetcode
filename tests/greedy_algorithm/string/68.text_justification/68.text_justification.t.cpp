@@ -3,7 +3,7 @@
 
 using namespace leetcode;
 
-TEST(text_justification_68, I)
+TEST(NO_68_text_justification, I)
 {
 
   std::vector<std::string> words {

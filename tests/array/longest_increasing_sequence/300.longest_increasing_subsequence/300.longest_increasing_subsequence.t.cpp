@@ -4,14 +4,14 @@
 
 using namespace leetcode;
 
-TEST(longest_increasing_subsequence_300, I)
+TEST(NO_300_longest_increasing_subsequence, I)
 {
   std::vector<int> arr {1, 2, 4, 3, 5};
   ASSERT_EQ(Solution().lengthOfLIS(arr), 4);
 }
 
 
-TEST(longest_increasing_subsequence_300, II)
+TEST(NO_300_longest_increasing_subsequence, II)
 {
   std::vector<int> arr {5, 4, 3, 2, 1};
   ASSERT_EQ(Solution().lengthOfLIS(arr), 1);

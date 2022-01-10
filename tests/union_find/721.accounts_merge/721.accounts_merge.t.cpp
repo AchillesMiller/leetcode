@@ -5,7 +5,7 @@
 using namespace leetcode;
 
 
-TEST(accounts_merge_721, I)
+TEST(NO_721_accounts_merge, I)
 {
   std::vector<std::vector<std::string>> accounts {
     {"John","johnsmith@mail.com","john_newyork@mail.com"},

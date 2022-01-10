@@ -1,7 +1,7 @@
 #include <gtest/gtest.h>
 #include <dfs/string/282.expression_add_operations.h>
 
-TEST(expression_add_operations_282, I)
+TEST(NO_282_expression_add_operations, I)
 {
   std::string num = "123";
   int target = 6;

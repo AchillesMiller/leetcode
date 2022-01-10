@@ -4,7 +4,7 @@
 
 using namespace leetcode;
 
-TEST(palindrome_partitioning_131, I)
+TEST(NO_131_palindrome_partitioning, I)
 {
   std::string s = "aab";
   std::vector<std::vector<std::string>> expected {

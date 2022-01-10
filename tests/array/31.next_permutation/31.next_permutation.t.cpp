@@ -4,7 +4,7 @@
 
 using namespace leetcode;
 
-TEST(next_permutation_31, I)
+TEST(NO_31_next_permutation, I)
 {
   std::vector<int> nums {1, 2, 3};
 

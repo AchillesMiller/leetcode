@@ -4,7 +4,7 @@
 
 using namespace leetcode;
 
-TEST(number_of_islands_200, I)
+TEST(NO_200_number_of_islands, I)
 {
   std::vector<std::vector<char>> grid {
     {'1', '0', '0'},

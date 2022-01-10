@@ -3,7 +3,7 @@
 
 using namespace leetcode;
 
-TEST(subarray_sum_equals_k_560, I)
+TEST(NO_560_subarray_sum_equals_k, I)
 {
   std::vector<int> nums {1, 1, 1};
 

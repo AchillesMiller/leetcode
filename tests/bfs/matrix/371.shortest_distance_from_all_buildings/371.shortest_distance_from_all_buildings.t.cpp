@@ -4,7 +4,7 @@
 
 using namespace leetcode;
 
-TEST(shortest_distance_from_all_buildings_371, I)
+TEST(NO_371_shortest_distance_from_all_buildings, I)
 {
   std::vector<std::vector<int>> grid {
     {1,0,2,0,1},

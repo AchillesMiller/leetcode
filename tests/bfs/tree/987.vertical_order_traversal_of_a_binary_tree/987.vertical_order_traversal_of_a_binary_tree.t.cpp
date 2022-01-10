@@ -3,7 +3,7 @@
 
 using namespace leetcode;
 
-TEST(vertical_order_traversal_of_a_binary_tree_987, I)
+TEST(NO_987_vertical_order_traversal_of_a_binary_tree, I)
 {
   TreeNode * root = new TreeNode(3);
   root->left = new TreeNode(9);
@@ -23,7 +23,7 @@ TEST(vertical_order_traversal_of_a_binary_tree_987, I)
   delete root;
 }
 
-TEST(vertical_order_traversal_of_a_binary_tree_987, II)
+TEST(NO_987_vertical_order_traversal_of_a_binary_tree, II)
 {
   TreeNode * root = new TreeNode(1);
   root->left = new TreeNode(2);

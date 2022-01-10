@@ -5,7 +5,7 @@
 using namespace leetcode;
 
 
-TEST(valid_word_abbreviation_408, I)
+TEST(NO_408_valid_word_abbreviation, I)
 {
   std::string word = "sort";
   std::string abbr1 = "s2t";

@@ -4,7 +4,7 @@
 
 using namespace leetcode;
 
-TEST(convert_binary_search_tree_to_sorted_doubly_linked_list_426, I)
+TEST(NO_426_convert_binary_search_tree_to_sorted_doubly_linked_list, I)
 {
   Node * root = new Node(4);
   root->left = new Node(2);

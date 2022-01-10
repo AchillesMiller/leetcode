@@ -3,7 +3,7 @@
 
 using namespace leetcode;
 
-TEST(remove_invalid_parenthesis_301, I)
+TEST(NO_301_remove_invalid_parenthesis, I)
 {
   std::string s = "()())()";
 

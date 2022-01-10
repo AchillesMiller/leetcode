@@ -4,7 +4,7 @@
 
 using namespace leetcode;
 
-TEST(make_a_large_island_827, I)
+TEST(NO_827_make_a_large_island, I)
 {
   std::vector<std::vector<int>> grid {
     {1, 0},
@@ -14,7 +14,7 @@ TEST(make_a_large_island_827, I)
   ASSERT_EQ(Solution().largestIsland(grid), 3);
 }
 
-TEST(make_a_large_island_827, II)
+TEST(NO_827_make_a_large_island, II)
 {
   std::vector<std::vector<int>> grid {
     {1, 1},
@@ -24,7 +24,7 @@ TEST(make_a_large_island_827, II)
   ASSERT_EQ(Solution().largestIsland(grid), 4);
 }
 
-TEST(make_a_large_island_827, III)
+TEST(NO_827_make_a_large_island, III)
 {
   std::vector<std::vector<int>> grid {
     {1, 1},

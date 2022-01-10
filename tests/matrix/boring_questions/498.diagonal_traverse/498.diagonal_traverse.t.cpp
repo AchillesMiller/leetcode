@@ -3,7 +3,7 @@
 
 using namespace leetcode;
 
-TEST(diagonal_traverse_498, I)
+TEST(NO_498_diagonal_traverse, I)
 {
   std::vector<std::vector<int>> mat {
     {1, 2, 3},

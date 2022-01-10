@@ -3,7 +3,7 @@
 
 using namespace leetcode;
 
-TEST(alien_dictionary_269, I)
+TEST(NO_269_alien_dictionary, I)
 {
   std::vector<std::string> words {
     "wrt","wrf","er","ett","rftt"

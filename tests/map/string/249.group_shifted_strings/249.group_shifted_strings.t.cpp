@@ -3,7 +3,7 @@
 
 using namespace leetcode;
 
-TEST(group_shifted_strings_249, I)
+TEST(NO_249_group_shifted_strings, I)
 {
   std::vector<std::string> strs {
     "za", "bc", "abz", "bca"

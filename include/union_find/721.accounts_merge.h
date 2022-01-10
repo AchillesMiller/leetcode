@@ -33,6 +33,7 @@ public:
 
     // building a NxN adjacent graph
 
+
     for (auto i = 0; i != accounts.size(); ++i)
     {
       auto &a = accounts[i];

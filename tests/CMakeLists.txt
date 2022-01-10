@@ -11,6 +11,7 @@ include(GoogleTest)
 
 add_subdirectory(array)
 add_subdirectory(bfs)
+add_subdirectory(binary_search)
 add_subdirectory(dfs)
 add_subdirectory(divide_and_conquer)
 add_subdirectory(dp)

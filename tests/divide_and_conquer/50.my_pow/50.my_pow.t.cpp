@@ -4,12 +4,12 @@
 
 using namespace leetcode;
 
-TEST(my_pow_50, I)
+TEST(NO_50_my_pow, I)
 {
   ASSERT_EQ(my_pow().pow(2.0, 10), 1024);
 }
 
-TEST(my_pow_50, II)
+TEST(NO_50_my_pow, II)
 {
   ASSERT_EQ(my_pow().pow(2.0, -2), 0.25);
 }
