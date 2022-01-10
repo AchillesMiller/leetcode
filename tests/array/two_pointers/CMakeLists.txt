@@ -1,2 +1,3 @@
 add_subdirectory(42.trapping_rain_water)
+add_subdirectory(408.valid_word_abbreviation)
 add_subdirectory(670.maximum_swap)

@@ -26,10 +26,12 @@ struct node
   T        val;
   node<T> *left;
   node<T> *right;
+  node<T> *parent;
 
-  node() : val(0), left(nullptr), right(nullptr) {}
-  node(T x): val(x), left(nullptr), right(nullptr) {}
-  node(T x, node<T> *l, node<T> *r): val(x), left(l), right(r) {}
+  node() : val(0), left(nullptr), right(nullptr), parent(nullptr) {}
+  node(T x): val(x), left(nullptr), right(nullptr), parent(nullptr) {}
+  node(T x, node<T> *l, node<T> *r): val(x), left(l), right(r), parent(nullptr)
+  {}
 
   ~node()
   {
