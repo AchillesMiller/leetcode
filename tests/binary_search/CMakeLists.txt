@@ -1,1 +1,2 @@
 add_subdirectory(162.find_peak_element)
+add_subdirectory(1891.cutting_ribbons)
