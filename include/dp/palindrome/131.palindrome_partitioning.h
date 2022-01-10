@@ -36,13 +36,13 @@ private:
   using partition_t  = std::vector<std::string>;
   using partitions_t = std::vector<partition_t>;
 
-  // dynamic programming
+  // dynamic programming to find all palindrome substring
   void find_palindromes(const std::string &s,
                         std::vector<std::vector<bool>> &palindromes)
   {
     int N = s.size();
 
-    for (auto r = 0; r != N; ++r)     // r]
+    for (auto r = 0; r != N; ++r)   // r]
       for (int l = r; l >= 0; --l)  // [l
         if (s[l] == s[r])
           palindromes[l][r] = (r-l <= 1 || palindromes[l+1][r-1]);
