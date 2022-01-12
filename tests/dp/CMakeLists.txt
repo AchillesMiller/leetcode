@@ -1,1 +1,2 @@
 add_subdirectory(palindrome)
+add_subdirectory(871.minimum_number_of_refueling_stops)
