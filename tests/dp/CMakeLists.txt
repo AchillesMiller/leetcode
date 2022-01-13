@@ -1,2 +1,3 @@
 add_subdirectory(palindrome)
 add_subdirectory(871.minimum_number_of_refueling_stops)
+add_subdirectory(1048.longest_string_chain)
