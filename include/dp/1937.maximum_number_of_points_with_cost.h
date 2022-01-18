@@ -21,7 +21,7 @@ public:
    **/
   long long maxPoints(std::vector<std::vector<int>>& points) {
 
-    // dp[i][j] = max{dp[i-1][k] + abs(j-k)} + points[i][j]
+    // dp[i][j] = max{dp[i-1][k] - abs(j-k)} + points[i][j]
     // where 0 <= k < n
     //  max{dp[i-1][k] - abs(j-k) } + points[i][j] = max (
     //     max{dp[j-1][k1]} + k1 + points[i][j] - j,  where k1 <= j

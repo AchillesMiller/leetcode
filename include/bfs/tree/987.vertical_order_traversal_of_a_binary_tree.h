@@ -20,7 +20,7 @@ public:
    */
   std::vector<std::vector<int>> verticalTraversal(TreeNode* root)
   {
-    // try to organize the tree nodes to difficult buckets, bucket's label is
+    // try to organize the tree nodes to different buckets, bucket's label is
     // the column value.
     // and, inside the bucket, the node is sorted by row and value
 
