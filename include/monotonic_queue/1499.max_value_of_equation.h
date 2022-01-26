@@ -19,7 +19,7 @@ public:
     int max_eq = std::numeric_limits<int>::min();
 
     std::deque<int> maximums; // a double linked queue of indices
-                              // points[index} is in non-ascending order
+                              // points[index] is in non-ascending order
 
     auto y_minus_x = [](const std::vector<int> &p) -> int
     {
