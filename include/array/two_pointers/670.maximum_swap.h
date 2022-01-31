@@ -35,7 +35,7 @@ public:
       // find the largest digit on the right of i
       // if multiple exists, select the rightmost one
 
-      if (s[i] == t[j]) // i is the largest, in anothe word, no larger one
+      if (s[i] == t[j]) // i is the largest, in another word, no larger one
                         // on the right
       {
         ++j;

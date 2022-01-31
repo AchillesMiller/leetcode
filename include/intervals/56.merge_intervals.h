@@ -61,6 +61,26 @@ public:
     return rets;
   }
 
+  std::vector<std::vector<int>> merge2(std::vector<std::vector<int>> &intervals)
+  {
+    std::sort(intervals.begin(), intervals.end());
+
+    std::vector<std::vector<int>> merged;
+    merged.reserve(intervals.size());
+
+    for (auto &interval: intervals)
+    {
+      auto &start = interval[0];
+      auto &end = interval[1];
+
+      if (merged.empty() || merged.back()[1] < start)
+        merged.push_back({start, end});
+      else
+        merged.back()[1] = std::max(merged.back()[1], end);
+    }
+    return merged;
+  }
+
 private:
   enum point_type
   {
