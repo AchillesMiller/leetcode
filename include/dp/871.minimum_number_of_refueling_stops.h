@@ -6,6 +6,9 @@
 
 namespace leetcode {
 
+/** @brief: minimum number of refueling stops
+ *  station = []
+
 class Solution {
 public:
   int minRefuelStops(int target, int startFuel,
@@ -26,12 +29,16 @@ private:
     // when car arrives at station 2,  we can either choose 0 stop, 1 stops and
     // 2 stops.
 
+    // dp[i] = the maximum miles we can arrive if stop i times
+    // for station j, the dp[i] = std::max(dp[i], dp[i-1] + fuels of station j)
+    // we need update the dp in reversed order [j, 0] for station j
+
     // so, at each station i, the dp[0, 1, ... i] will be updated
 
     // and dp[0] = startFuel
     //     dp[1] = std::max(dp[0] + fuels of station2, dp[1])
-    //                      -------------------------
-    //                        only if it can arrive
+    //                      -------------------------  -------
+    //                        only if it can arrive    previous calculation
 
     // the dp[0: target] is kept updating
 
