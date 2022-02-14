@@ -27,7 +27,7 @@ public:
               [](const std::vector<int> &l, const std::vector<int> &r)
               {
                 return l[1] < r[1];
-              })
+              });
 
     int curr = intervals[0].back();
 
