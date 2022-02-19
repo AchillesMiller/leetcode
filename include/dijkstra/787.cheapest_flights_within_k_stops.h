@@ -1,9 +1,15 @@
-#ifndef INCLUDED_DIJISTRA_787_CHEAPEST_FLIGHTS_WITH_K_STOPS
-#define INCLUDED_DIJISTRA_787_CHEAPEST_FLIGHTS_WITH_K_STOPS
+#ifndef INCLUDED_DIJKSTRA_787_CHEAPEST_FLIGHTS_WITH_K_STOPS
+#define INCLUDED_DIJKSTRA_787_CHEAPEST_FLIGHTS_WITH_K_STOPS
 
 #include <vector>
 
 namespace leetcode {
+
+/** @brief: cheapest flights with k stops
+ *  There are n cities connected by some number of flights.
+ *  You are given an array flights where flights[i] = [from, to, price]
+ *  indicates there is a flight from city from to city toi with cost price.
+ **/
 
 class Solution {
 public:
