@@ -14,6 +14,7 @@ public:
   Node* copyRandomList(Node* head)
   {
     std::unordered_map<Node *, Node *> copied;
+    //               before copy  after copy
     copied.insert(std::make_pair(nullptr, nullptr));
 
     return copy_random_list(head, copied);
