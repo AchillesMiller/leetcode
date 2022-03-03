@@ -12,6 +12,12 @@ public:
   int longestStrChain(std::vector<std::string>& words) {
     // iterate the words from small size to large size
 
+    // 1. dynamic programming
+    //    dp[word], the longest str chain ended in word
+    //    dp[word] = std::max(dp[wor], dp[wrd], dp[wod], dp[ord]) + 1
+    // 2. bucket sort idea
+    //    use buckets to store indices of word
+
     std::size_t max_word = 0;
 
     for (auto &word: words)
@@ -34,6 +40,13 @@ public:
         lens[word] = 1;
 
         // abc -> bc -> ac -> ab
+
+        //      word
+        // 1st  ord
+        // 2nd  wrd
+        // 3nd  wod
+        // 4nd  wor
+
         auto wor = word.substr(1);
 
         for (auto i = 0; i != word.size(); ++i)

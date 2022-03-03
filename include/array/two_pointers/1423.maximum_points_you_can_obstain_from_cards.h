@@ -5,6 +5,20 @@
 
 namespace leetcode {
 
+/** @brief Maximum points you can obtain from cards
+ *  There are several cards arranged in a row,
+ *  and each card has an associated number of points.
+ *  The points are given in the integer array cardPoints.
+ *
+ *  In one step, you can take one card from the beginning or
+ *  from the end of the row. You have to take exactly k cards.
+ *
+ *  Your score is the sum of the points of the cards you have taken.
+ *
+ *  Given the integer array cardPoints and the integer k,
+ *  return the maximum score you can obtain.
+ **/
+
 class Solution {
 public:
   int maxScore(std::vector<int>& cardPoints, int k) {
@@ -25,20 +39,17 @@ private:
     if (k <= 0)
       return 0;
 
-    // pre-sums
-    for (auto i = 1; i != cards.size(); ++i)
-      cards[i] += cards[i-1];
+    int range_sum = 0;
 
-    // cards[i]: sum of range [0, i]
-    // so, subarray[i, i + k - 1] is what we want to check
-    //  = cards[i+k-1] - cards[i-1]
-    //  = cards[j] - cards[j-k]
+    int min = std::accumulate(cards.begin(), cards.begin()+k, 0);
 
-    int min = cards[k-1];
+    int range = min;
 
-    for (auto j = k; j != cards.size(); ++j)
-      min = std::min(min, cards[j] - cards[j-k]);
-
+    for (auto i = k; i != cards.size(); ++i)
+    {
+      range = range + cards[i] - cards[i-k];
+      min = std::min(range, min);
+    }
     return min;
   }
 };
